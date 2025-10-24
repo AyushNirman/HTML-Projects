@@ -1,2 +1,1 @@
-# HTML-Projects
-HTML Projects
+A collection of web projects built with HTML 
