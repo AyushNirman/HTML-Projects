@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+</head>
+<body>
+<h1>Hey I'm Ayush Kumar Nirman</h1>
+<h2>HTML Developer</h2>
+<hr>
+<h2>About Me</h2>
+<p>I love coding and building  real-world  project</p>
+<div id="skills">
+<h2>My Skills</h2>
+<ul> <li title="Programming language">Java</li>
+    <li title="Problem solving">DSA</li>
+    <li title="Database">SQL</li>
+    <li title="Web Development">HTML</li>
+</ul> 
+</div>
+<h2>My project</h2>
+<ol>
+    <li title="HTML-based portfolio page">Portfolio Website</li> 
+    <li title="Task management console app">Todo App</li>
+</ol>
+<div id="about">
+<h2>Contact</h2>
+<p>
+    <a href="mailto:Ayush@gmail.com" target="_blank">Gmail</a> |
+    <a href="https://www.instagram.com/xyz/?hl=en" target="_blank">Instagram</a> |
+    <img src="profile.jpeg" width="200" height="250" alt="profile image">
+</p>
+</div>    
+</body>
+</html>
