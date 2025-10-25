@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    
+</head>
+<body>
+<form action="#" method="post">
+<h2>Signup Form</h2>
+<div>
+<label for="name">Name</label>
+<input type="text" name="username" id="name" placeholder="Enter name" title="Enter your full name">
+</div>
+<br>
+
+<div>
+<label for="email">Email</label>
+<input type="email" name="useremail" id="email"  placeholder="Enter email" required>
+</div>
+
+<br>
+
+<div>
+<label for="pass">Password</label>
+<input type="password" name="pass" id="pass"  placeholder="Enter password" minlength="8" maxlength="16"> 
+</div>
+
+<br>
+<div>
+<label for="confirm_pass">Confirm Password</label>
+<input type="password" name="con_pass" id="confirm_pass" placeholder="confirm password"> </div>
+
+<br>
+
+<div><label for="ph_number">Phone number</label>
+<input type="tel" name="ph_number" id="ph_number" pattern="[0-9]{10}" required>
+</div>
+
+<br>
+<div>
+<label for="gender">Select gender</label>
+<br>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male">  
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="other">Other</label>
+<input type="radio" name="gender" id="other" value="other">
+</div>
+
+<br>
+<label for="hobbies">Hobbies</label>
+<br>
+
+<label for="gaming">gaming</label>
+<input type="checkbox" name="hobbies" id="gaming">
+
+<label for="coding">coding</label>
+
+<input type="checkbox" name="hobbies" id="coding">
+<label for="reading">reading</label>
+
+<input type="checkbox" name="hobbies" id="reading">
+<label for="cooking">cooking</label>
+
+<input type="checkbox" name="hobbies" id="cooking">
+<br>
+
+<label for="country">Select Country</label>
+<select name="country" id="country" required>
+    <option value="" disabled>Select the country</option>
+    <option value="bhutan">Bhutan</option>
+    <option value="japan">Japan</option>
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="nepal">Nepal</option>
+</select>
+
+<button type="submit">Sumbit</button>
+<button type="reset">Reset</button>
+
+
+</form>    
+</body>
+</html>
